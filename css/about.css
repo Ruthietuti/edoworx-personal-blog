@@ -1,0 +1,25 @@
+.about-col {
+    display: flex;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.about-img {
+
+    margin: 5px;
+}
+.about {
+    margin: 5%;
+}
+.about-text { color: white;
+   
+
+}
+.about-title  h1{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    color: bisque;
+
+}

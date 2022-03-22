@@ -1,0 +1,274 @@
+* {
+    margin: auto;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background:  linear-gradient(rgba(1,2,3.0,0.7), rgba(10,9,5,0.1)),
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* nav and header begins */
+.nav-fixed {
+    width: 100%;
+    position: fixed;
+
+}
+.logo {
+
+    width: fit-content;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px
+    ;
+}
+.logo h1 {
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration: wavy;
+    color: brown;
+    font-weight: bolder;
+}
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background: transparent;
+    
+}
+.navlinks {
+    text-align: center; 
+    padding-left: 50px;  
+    justify-content: space-around; 
+    position: fixed;
+}
+.navlinks ul li {
+    list-style: none;
+	display: inline-block;
+	padding: 8px 22px;
+    margin: 0 20px;
+	text-align: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: pink;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.navlinks ul li a {
+    color: white;
+}
+/* .navlinks ul li ::after{
+    text-decoration: underline;
+    color: red;
+    transition: 0.5s;
+
+} */
+.header {
+    min-height: 100vh; 
+    min-width: 100vh;
+	background:  linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("images/dancebanner.jpg") fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner-text {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 20px;
+    color: white;
+}
+.banner-text h1 {
+   font-size: 30px; 
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.banner-text p{ padding: 1rem 0 2rem 0;
+    letter-spacing: 2px;
+    ;
+}
+/* button :hover {
+    background-color: red;
+    transition-delay: 0.2s;
+} */
+/* nav and header ends */
+/* content begins */
+.content {
+    margin-top: 10px;
+    margin: 10px;
+    background-color: black;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.content-text {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.content-text p {
+    flex-basis: 30%;
+    background-color: goldenrod;
+    border-radius: 10px
+    ;
+    
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: inline-block
+}
+.title {
+    display: block;
+    color: pink;
+    margin-top: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.design-img::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: (rgb(0,0,0,0.3));
+}
+.design-img img {
+    width: 80%;
+    min-height: 100;
+    margin: 20px;
+    position: center;
+    display: inline-block;
+    /* transition: all 0.5 ease; */
+
+}
+.design-items {
+   padding: 0%;
+   margin: 0%;
+   align-items: justify;
+}
+/* .design-items:hover img {
+    transform: scale(0.8);
+} */
+.design-img span:first-of-type { position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+
+}
+/* content ends */
+/* design begins  */
+.design {
+    padding: 4rem;
+}
+.title{
+    text-align: center;
+}
+.title h2 {
+    font-size: 2.4rem;
+}.title p{
+    text-transform: uppercase;
+    padding: 0.7rem;
+}
+.design-content {
+    margin: 2rem;
+}
+.design-items {
+    cursor: pointer;
+}
+.depres {
+    position: relative;
+    text-align: justify;
+    background-color: black;
+    color: white;
+}
+.depres h2{
+    margin-bottom: 10px ;
+    font-size: 30px;
+    font-weight: bolder;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.depres button {
+    border: none;
+    font-size: larger;
+    
+}
+.depres button:hover {
+    background-color: goldenrod;
+}
+
+/* footer begins */
+footer { 
+		background-color: black;
+		color: white;
+		margin: auto;
+		padding-top: 20px;
+		line-height: 30px;
+
+}
+footer h1 {
+		padding-bottom: 20px ;
+}
+footer ul li{
+		list-style: none;
+}
+footer ul li a {
+	text-decoration: none;
+	color: white;
+}
+footer .footer-col:first-child{ 
+	flex-basis: 40%; 
+	padding-left: 30px;
+}
+footer .footer-col:nth-child(2){
+	flex-basis: 25%;
+}
+footer .footer-col:last-child {
+	flex-basis: 25%;
+}
+footer i {
+	color: red;
+}
+footer .footer-col:nth-child(2) p {
+	line-height: 30px;
+
+}
+footer .social-links i{
+	font-size: 20px;
+	padding: 10px 10px;
+}	
+.footer-bottom{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px;
+}
+.footer-bottom p {
+	border-bottom: 1px;
+}
+@media(max-width: 850px){
+	footer .footer-col{
+		flex-basis: 45% !important;
+	}
+	footer .footer-col:nth-child(3) {
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+}
+@media(max-width: 600px){
+		footer .footer-col:nth-child(2) {
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+}
+
+
+/* footer ends */
